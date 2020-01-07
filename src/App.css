@@ -1,0 +1,11 @@
+.list{
+  display:inline;
+}
+.list>li{
+  display:inline;
+}
+
+.link {
+  color: inherit;
+  text-decoration: inherit;
+}
