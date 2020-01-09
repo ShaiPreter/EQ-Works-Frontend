@@ -66,7 +66,7 @@ class Charts extends Component {
 
 
 
-                           const  selectedDay = data[0].date;
+                           const  selectedDay = new Date(data[0].date).toDateString();
 
                            let labels = [];
 
